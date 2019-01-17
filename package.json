@@ -35,6 +35,5 @@
     "@types/react": "^16.7.17",
     "@types/react-dom": "^16.0.11",
     "typescript": "^3.2.2"
-  },
-  "proxy": "una url q sale al iniciar el servidor con yarn serve"
+  }
 }

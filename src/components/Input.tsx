@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { WrappedFieldProps } from 'redux-form';
 
 const style = {
     backgroundColor: '#fff',
@@ -18,12 +17,9 @@ const spanStyle = {
 
 } as React.CSSProperties
 
-interface IInputProps {
-    placeholder?: string
-    label: string
-}
 
-const Input: React.StatelessComponent<WrappedFieldProps & IInputProps> = props => {
+
+const Input: any = (props: any) => {
     const { label } = props
     return (
         <div>

@@ -1,8 +1,6 @@
 import { firestore } from 'firebase'
 import { AnyAction, Dispatch } from 'redux';
 import { IServices } from './../services/index';
-import { async } from 'q';
-import { change } from 'redux-form';
 
 const START = 'posts/fetch-start'
 const SUCCESS = 'posts/fetch-success'
@@ -90,10 +88,12 @@ export const fetchPosts = () =>
 
 export const like = (id: string) =>
     async (dispatch: Dispatch, getState: () => any, { }: IServices) => {
-
+        // tslint:disable-next-line:no-console
+        console.log(id);
     }
 
 export const share = (id: string) =>
     async (dispatch: Dispatch, getState: () => any, { }: IServices) => {
-
+        // tslint:disable-next-line:no-console
+        console.log(id);
     }

@@ -33,7 +33,7 @@ class App extends React.Component<IAppProps> {
         }
       }
       this.setState({
-        loading: false
+        loading: false,
       })
     })
   }
